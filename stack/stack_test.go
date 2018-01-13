@@ -58,7 +58,7 @@ func TestStack(t *testing.T) {
 		fmt.Printf("Sum = %v\n", sum)
 	}
 	if sum != expected {
-		t.Errorf("sum over s = %d, want 12", sum)
+		t.Errorf("sum over s = %d, expected 12", sum)
 	}
 
 }
